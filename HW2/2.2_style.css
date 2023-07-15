@@ -1,0 +1,26 @@
+.container{
+    width: 95%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbG9yZnVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+    padding: 30px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-image: url("https://w7.pngwing.com/pngs/622/980/png-transparent-emoticon-emoji-sadness-smiley-frown-emoji-face-smiley-sadness-thumbnail.png");
+    background-size: cover;
+    border-radius: 50%;
+    transition: 1s;
+;
+}
+.box:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    background-image: url("https://w7.pngwing.com/pngs/266/86/png-transparent-smiley-emoticon-mouth-smile-miscellaneous-face-people-thumbnail.png");
+    background-size: cover;
+}

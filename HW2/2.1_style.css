@@ -1,0 +1,35 @@
+.container{
+    width: 97%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    font-size: 12px;
+    box-shadow: 10px 15px 5px 0px rgb(169, 94, 35, 0.5);
+}
+.display-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rubic{
+    font-family: 'Rubik Pixels', cursive;
+}
+.dancing{
+    font-family: 'Dancing Script', cursive;
+}
+.fjalla{
+    font-family: 'Fjalla One', sans-serif;
+}
+.indie{
+    font-family: 'Indie Flower', cursive;
+}
+.sedgwick{
+    font-family: 'Sedgwick Ave Display', cursive;}
