@@ -3,7 +3,6 @@
     width: 1200px;
     height: 800px;
     margin: 60px;
-    font-size: 20px;
     background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJyaWNrJTIwd2FsbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60");
     background-size: cover;
     box-shadow: 20px 40px 10px 0px rgba(131, 134, 136, 0.5);
@@ -21,7 +20,6 @@
     width: 100%;
     height: 200px;
     font-family: 'Ultra', serif;
-    font-size: 18px;
     margin-bottom: 40px;
 }
 
