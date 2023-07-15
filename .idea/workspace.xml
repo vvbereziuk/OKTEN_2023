@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19a9cff2-f0e9-494c-8356-442359272ef2" name="Changes" comment="hw">
-      <change afterPath="$PROJECT_DIR$/HW2/2.1_HW.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/2.1_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/2.2_HW.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/2.2_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/2.3_HW.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/2.3_style.css" afterDir="false" />
+    <list default="true" id="19a9cff2-f0e9-494c-8356-442359272ef2" name="Changes" comment="hw2">
+      <change afterPath="$PROJECT_DIR$/HW2/2.4_figma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/2.4_figma.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/1_HW.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/1_HW.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +60,9 @@
       <option name="presentableId" value="Default" />
       <updated>1689427284751</updated>
       <workItem from="1689427286434" duration="60000" />
-      <workItem from="1689427401404" duration="6778000" />
+      <workItem from="1689427401404" duration="6938000" />
+      <workItem from="1689435034808" duration="76000" />
+      <workItem from="1689452515639" duration="4531000" />
     </task>
     <task id="LOCAL-00001" summary="hw">
       <created>1689427595210</created>
@@ -74,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689427595210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hw2">
+      <created>1689434715099</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689434715099</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw" />
+    <MESSAGE value="hw2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw2" />
   </component>
 </project>

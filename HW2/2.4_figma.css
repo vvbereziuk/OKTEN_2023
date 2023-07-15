@@ -1,0 +1,82 @@
+.container{
+    transition: 1s;
+    width: 1200px;
+    height: 800px;
+    margin: 60px;
+    font-size: 20px;
+    background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJyaWNrJTIwd2FsbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+    box-shadow: 20px 40px 10px 0px rgba(131, 134, 136, 0.5);
+}
+.container:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}
+.display-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chapter{
+    width: 100%;
+    height: 200px;
+    font-family: 'Ultra', serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.type-boxes{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    background-image: url("https://media.istockphoto.com/id/1188423699/uk/%D1%84%D0%BE%D1%82%D0%BE/%D1%81%D1%82%D0%B0%D1%80%D0%B8%D0%B9-%D0%B1%D1%96%D0%BB%D0%B8%D0%B9-%D1%86%D0%B5%D0%B3%D0%BB%D1%8F%D0%BD%D0%B8%D0%B9-%D0%BD%D0%B0%D1%81%D1%82%D1%96%D0%BD%D0%BD%D0%B8%D0%B9-%D1%84%D0%BE%D0%BD.webp?b=1&s=170667a&w=0&k=20&c=c4abRBFgE5UZf6T8Gvl_jrIkSnupasaOQoVhD7SBRTY=");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 1s;
+    color: #000;
+    font-family: 'Uchen', serif;
+    font-size: 14px;
+    width: 25%;
+    height: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #A8A4A4;
+    box-shadow: 10px 15px 5px 0px rgba(36, 37, 37, 0.5);
+}
+
+.box:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    background-color: #cdf6f1;;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    color: black;
+    transition: 1s;
+    font-family: 'Uchen', serif;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    border: 1px solid #000;
+    background: #D9D9D9;
+    box-shadow: 10px 15px 5px 0px rgba(79, 80, 80, 0.5);
+}
+
+.btn:hover{
+    transition: 1s;
+    transform: scale(1.4);
+    background-color: #313333;
+    color: #EEFFFD;
+    border-radius: 30px;
+}
