@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: Jost;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.nav{
+    width: 100vw;
+    height: 20vh;
+    background: rgba(83, 81, 81, 0.10);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav a{
+    margin-right: 80px;
+    text-decoration: none;
+    color: #7A7070;
+    transition: 0.7s;
+}
+
+nav a:hover{
+    color: black;
+    transition: 0.7s;
+    transform: scale(1.2);
+}
+
+.active-btn{
+    color: #3D6FB4;
+}
+
+.main{
+    margin-left: 148px;
+    background-color: white;
+    display: flex;
+}
+
+.chapter{
+    width: 383px;
+    height: 181px;
+    margin: 0;
+}
+
+.chapter p{
+    margin-top: 71px;
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+
+.text_lorem{
+    width: 1258px;
+    margin-right: 106px;
+}
+
+.text_lorem p{
+    margin: 0;
+}

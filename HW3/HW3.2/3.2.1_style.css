@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: Jost;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.nav{
+    width: 100vw;
+    height: 20vh;
+    background: rgba(83, 81, 81, 0.10);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav a{
+    margin-right: 80px;
+    text-decoration: none;
+    color: #7A7070;
+    transition: 0.7s;
+}
+
+nav a:hover{
+    color: black;
+    transition: 0.7s;
+    transform: scale(1.2);
+}
+
+.active-btn{
+    color: #3D6FB4;
+}
+
+.main{
+    margin-left: 138px;
+    background-color: white;
+    display: flex;
+}
+
+
+.section{
+    width: 50vw;
+}
+
+.chapter{
+    width: 30vw;
+    margin-left: 10px;
+    margin-bottom: 52px;
+}
+
+.chapter p{
+    font-size: 70px;
+}
+
+.text_lorem{
+    width: 40vw;
+    padding-bottom: 30px;
+}
+
+.btn{
+    width: 25vw;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 155px;
+    height: 55px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    transition: 1s;
+}
+
+.btn button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.img-heroes{
+    width: 50vw;
+}

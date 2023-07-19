@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+#red{
+    width: 100vw;
+    height: 100vh;
+    background-color: #b23a54;
+}
+#blue{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5674c2;
+}
+#green{
+    width: 100vw;
+    height: 100vh;
+    background-color: #789d4f;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.d-flex-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.indent{
+    padding: 50px;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    font-size: 22px;
+    inline-size: 1.5rem;
+}
+
+.pic_red p{
+    margin-bottom: 35vh;
+
+}
+
+a{
+    font-size: 40px;
+    color: yellow;
+    transition: 1s;
+}
+a:hover{
+    color: #8a0e0e;
+    transition: 1s;
+    transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+}
