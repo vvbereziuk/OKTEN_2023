@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.d-flex{
+    display: flex;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.header{
+    text-align: center;
+}
+
+.section-1{
+    width: 100vw;
+    margin-left: 40px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content img{
+    width: 764px;
+    height: 617px;
+}
+
+.ingridients_list{
+    font-size: 25px;
+    margin-right: 280px;
+}
+
+.section_2{
+    width: 100vw;
+    font-size: 25px;
+}
+
+ol{
+    margin: 70px 20px 40px 40px;
+}
+
+
