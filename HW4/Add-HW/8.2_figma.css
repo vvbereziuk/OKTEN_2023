@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100vw;
+    height: 25vh;
+    background: #D9D9D9;
+}
+
+.section_content{
+    display: flex;
+    width: 100vw;
+    height: 75vh;
+}
+
+.section_column-1{
+    width: 25vw;
+    height: 75vh;
+    background: #909090;
+}
+
+.section_column-2{
+    width: 25vw;
+    height: 75vh;
+    background: #645F5F;
+}
+
+.section_column-3{
+    width: 20vw;
+    height: 75vh;
+    background: #A59D9D;
+}
+
+.section_column-4{
+    width: 20vw;
+    height: 75vh;
+    background: #878585;
+}
+.section_column-5{
+    width: 10vw;
+    height: 75vh;
+    background: #4E4444;
+}

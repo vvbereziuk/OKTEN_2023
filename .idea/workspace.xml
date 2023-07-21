@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19a9cff2-f0e9-494c-8356-442359272ef2" name="Changes" comment="hw_figma">
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.1/3.1.1_HW.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.1/3.1.1_HW1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.1/3.1.2_HW.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.1/3.1.2_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.2/3.2.1_HW.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.2/3.2.1_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.2/3.2.2_HW.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.2/3.2.2_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.2/stock-vector-superhero-couple-man-and-woman-removebg-preview 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.3/3.3_HW.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.3/3.3_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.4/3.4_HW.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/HW3.4/3.4_style.css" afterDir="false" />
+    <list default="true" id="19a9cff2-f0e9-494c-8356-442359272ef2" name="Changes" comment="hw_4">
+      <change afterPath="$PROJECT_DIR$/HW4/Add-HW/8.1._figma.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/Add-HW/8.1_figma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/Add-HW/8.2._figma.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/Add-HW/8.2_figma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/HW_4.3/4.3.1_figma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/HW_4.3/4.3.1_figma.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/HW_4.3/4.3.2_figma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/HW_4.3/4.3.2_figma.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/HW_4.3/4.3.3_figma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/HW_4.3/4.3.3_figma.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/HW_4.3/4.3.4_figma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/HW_4.3/4.3.4_figma.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/bereziuk_vv/IdeaProjects/OKTEN_2023/HW3",
+    "last_opened_file_path": "/Users/bereziuk_vv/IdeaProjects/OKTEN_2023/HW4/Add-HW",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -65,9 +64,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HW4/Add-HW" />
+      <recent name="$PROJECT_DIR$/HW4/Figma" />
       <recent name="$PROJECT_DIR$/HW3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HW4/HW_4.3" />
       <recent name="$PROJECT_DIR$/HW3/HW3.2" />
       <recent name="$PROJECT_DIR$/HW3/HW3.1" />
       <recent name="$PROJECT_DIR$/HW3" />
@@ -85,7 +87,8 @@
       <workItem from="1689427401404" duration="6938000" />
       <workItem from="1689435034808" duration="76000" />
       <workItem from="1689452515639" duration="5012000" />
-      <workItem from="1689708022866" duration="16358000" />
+      <workItem from="1689708022866" duration="16611000" />
+      <workItem from="1689960073701" duration="7285000" />
     </task>
     <task id="LOCAL-00001" summary="hw">
       <created>1689427595210</created>
@@ -115,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689457575797</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hw_4">
+      <created>1689724984052</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689724984053</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +147,7 @@
     <MESSAGE value="hw" />
     <MESSAGE value="hw2" />
     <MESSAGE value="hw_figma" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_figma" />
+    <MESSAGE value="hw_4" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_4" />
   </component>
 </project>
