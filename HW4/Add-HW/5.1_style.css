@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.display-center{
+    justify-content: center;
+    align-items: center;}
+
+
+.container{
+    width: 500px;
+    height: 420px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.first-last-name{
+    width: 100%;
+    justify-content: ;
+    margin-top: 30px;
+}
+
+.container:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: black 0 0 15px;
+}
+
+.user_firstname input{
+    width: 175px;
+    height: 45px;
+    font-size: 14px;
+    transition: 0.5s;
+    margin-left: 45px;
+}
+
+.user_firstname:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.user_lastname input{
+    width: 175px;
+    height: 45px;
+    font-size: 14px;
+    transition: 0.5s;
+    margin-left: 42px;
+}
+
+.user_lastname:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.user_email input{
+    margin-top: 30px;
+    width: 400px;
+    height: 45px;
+    font-size: 14px;
+}
+
+.user_email:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.user_password input{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 45px;
+    font-size: 14px;
+}
+
+.user_password:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.button{
+    border: none;
+    background-color: white;
+}
+
+.worning-text{
+    margin: 0 45px 0 45px;
+    color: #8D8484;
+    font-size: 10px;
+}
+
+span{
+    color: #626161;
+    font-size: 14px;
+}
+
+.btn{
+    margin-left: 40px;
+    width: 410px;
+    height: 50px;
+    border-radius: 10px;
+    border: #EBAE00 solid 2px;
+    background-color: #F7D900;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer_button{
+    width: 100%;
+}
+
+.footer_button.button{
+    width: 400px;
+    height: 20px;
+}
+
+.footer_button input:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: #efa925;
+    color: black;
+    font-size: 20px;
+}

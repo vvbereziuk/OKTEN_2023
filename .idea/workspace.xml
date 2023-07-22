@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19a9cff2-f0e9-494c-8356-442359272ef2" name="Changes" comment="hw_4/1">
+      <change afterPath="$PROJECT_DIR$/HW4/Add-HW/5.1_HW.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/Add-HW/5.1_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/Add-HW/7.1_HW.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/Add-HW/7.1_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW4/HW_4.2/4.2_HW.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/HW_4.2/4.2_HW.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW4/HW_4.2/4.2_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/HW_4.2/4.2_style.css" afterDir="false" />
@@ -44,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/bereziuk_vv/IdeaProjects/OKTEN_2023/HW4/HW_4.1",
+    "last_opened_file_path": "/Users/bereziuk_vv/IdeaProjects/OKTEN_2023/HW4/Add-HW",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -55,8 +59,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/HW4/HW_4.1" />
       <recent name="$PROJECT_DIR$/HW4/Add-HW" />
+      <recent name="$PROJECT_DIR$/HW4/HW_4.1" />
       <recent name="$PROJECT_DIR$/HW4/Figma" />
       <recent name="$PROJECT_DIR$/HW3" />
     </key>
@@ -82,7 +86,8 @@
       <workItem from="1689708022866" duration="16611000" />
       <workItem from="1689960073701" duration="11793000" />
       <workItem from="1690009108160" duration="1950000" />
-      <workItem from="1690011220486" duration="17805000" />
+      <workItem from="1690011220486" duration="17997000" />
+      <workItem from="1690042968933" duration="7370000" />
     </task>
     <task id="LOCAL-00001" summary="hw">
       <created>1689427595210</created>
@@ -140,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690024574656</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hw_4/1">
+      <created>1690030166726</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690030166726</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

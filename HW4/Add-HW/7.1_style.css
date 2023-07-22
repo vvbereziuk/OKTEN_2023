@@ -8,7 +8,7 @@ body{
 .main{
     width: 100vw;
     height: 100vh;
-    background-color: darkcyan;
+    background-color: #6dc9e5;
 }
 
 .d-flex {
@@ -20,8 +20,8 @@ body{
     align-items: center;}
 
 .container{
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 420px;
     background-color: white;
     flex-direction: column;
     border-radius: 10px;
@@ -36,20 +36,39 @@ body{
 header{
     width: 100%;
     height: 80px;
-    background-color: #e9f5f5;
     border-radius: 10px;
     margin-bottom: 15px;
 }
 
-.user_login input{
-    margin-top: 20px;
+header h1{
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+span{
+    margin-left: 20px;
+}
+
+.user_fullname input{
     width: 400px;
     height: 45px;
     font-size: 14px;
     transition: 0.5s;
 }
 
-.user_login:hover{
+.user_fullname:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.user_email input{
+    margin-top: 30px;
+    width: 400px;
+    height: 45px;
+    font-size: 14px;
+}
+
+.user_email:hover{
     transform: scale(1.05);
     transition: 0.5s;
 }
@@ -73,29 +92,30 @@ header{
 }
 
 .btn{
-    margin-left: 140px;
-    width: 100px;
-    height: 30px;
+    margin-left: 90px;
+    width: 200px;
+    height: 50px;
     border-radius: 10px;
-    border: gray solid 1px;
-    background-color: #e2f6f1;
+    border: #e7a62e solid 2px;
+    background-color: #f2f5f5;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer_button{
+    width: 100%;
+    margin-left: 160px;
 }
 
 .footer_button.button{
-    border: none;
-    width: 50px;
-    height: 25px;
+    width: 200px;
+    height: 20px;
 }
 
 .footer_button input:hover{
     transform: scale(1.1);
     transition: 0.5s;
-    background-color: #90ecd5;
+    background-color: #efa925;
     color: black;
-    font-size: 15px;
-}
-
-.footer_button input:hover{
-    transform: scale(1.3);
-    transition: 0.5s;
+    font-size: 20px;
 }

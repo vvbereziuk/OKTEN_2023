@@ -9,26 +9,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="4.2_style.css">
+    <link rel="stylesheet" href="7.1_style.css">
 
 </head>
 <body>
 <main class="main d-flex display-center">
-    <div class="container d-flex ">
+    <div class="container d-flex">
         <header>
-            <h1 class="header d-flex display-center" >Вхід в особистий кабінет</h1>
+            <h1 class="header d-flex">New to Twitter? <span style="font-weight: lighter">Sign up</span></h1>
+            <hr>
         </header>
-        <div class="user_login d-flex display-center">
-            <input type="text" id="login" placeholder="Логін aбо  e-mail" required>
+        <div class="user_fullname d-flex display-center">
+            <input type="text" id="login" placeholder="Full name" required>
+        </div>
+        <div class="user_email d-flex display-center">
+            <input type="email" id="email" placeholder="Email" required>
         </div>
         <div class="user_password d-flex display-center">
-            <input type="password" id="password" placeholder="Пароль" required>
+            <input type="password" id="password" placeholder="Password" required>
         </div>
-        <div class="footer_button d-flex display-center">
-            <label for="checkbox">Запам'ятати мене</label>
-            <input type="checkbox" id="checkbox" >
+        <div class="footer_button d-flex">
             <button class="button">
-                <input class="btn" type="submit" value="Вхід" id="enter" required>
+                <input class="btn" type="submit" value="Sign up for Twitter" id="enter" required>
             </button>
         </div>
     </div>
