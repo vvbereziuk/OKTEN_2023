@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkcyan;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.display-center{
+    justify-content: center;
+    align-items: center;}
+
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+.container:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: black 0px 0px 15px;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+}
+
+.user_login input{
+    margin-top: 20px;
+    width: 400px;
+    height: 45px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.user_login:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.user_password input{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 45px;
+    font-size: 14px;
+}
+
+.user_password:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.button{
+    border: none;
+    background-color: white;
+}
+
+.btn{
+    margin-left: 150px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: gray solid 1px;
+    background-color: #ceeee6;
+}
+
+.footer_button.button{
+    border: none;
+    width: 50px;
+    height: 25px;
+}
+
+.footer_button input:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: #90ecd5;
+    color: black;
+    font-size: 15px;
+}
+
+.footer_button input:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
