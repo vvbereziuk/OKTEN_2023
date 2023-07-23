@@ -26,6 +26,7 @@ body{
     background-color: white;
     flex-direction: column;
     border-radius: 10px;
+    transition: 0.7s;
 }
 .first-last-name{
     width: 100%;
