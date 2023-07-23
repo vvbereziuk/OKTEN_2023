@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://images.unsplash.com/photo-1688256209342-378110c34bb6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE0OHxpVUlzblZ0akIwWXx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 50vw;
+    color: white;
+    font-size: larger;
+    transition: 0.7s;
+}
+
+.container:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    border: #8D8484 solid 1px;
+    box-shadow: black 10px 30px 30px;
+}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.first_name{
+    transition: 1s;
+}
+
+.first_name:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    color: black;
+    font-weight: bold;
+}
+
+.surename{
+    transition: 1s;
+}
+
+.surename:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    color: black;
+    font-weight: bold;
+}
+
+.gender{
+    transition: 1s;
+}
+
+.gender:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    color: black;
+    font-weight: bold;
+}
+
+.dateOfBirth{
+    transition: 1.5s;
+}
+
+.dateOfBirth:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    color: black;
+    font-weight: bold;
+}
+
+.operator_name{
+    transition: 1s;
+}
+
+.operator_name:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    color: black;
+    font-weight: bold;
+}
+
+.payment{
+    transition: 1s;
+}
+
+.payment:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    color: black;
+    font-weight: bold;
+}
+
+.submit{
+    transition: 1s;
+}
+
+.submit input{
+    margin-right: 50px;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 20px;
+    border: none;
+}
+
+.submit input:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    background-color: #3ce3e3;
+}
+

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="add_6_HW.css">
+
+</head>
+<body>
+<main>
+    <div class="container">
+        <header>
+            <h1 class="header">Заповніть поля анкети</h1>
+        </header>
+        <form class="form">
+            <div class="first_name">
+                <label for="first_name">Ваше ім'я:</label>
+                <input type="text" id="first_name" name="first_name" required>
+            </div>
+            <br>
+            <div class="surename">
+                <label for="surename">Ваше прізвище:</label>
+                <input type="text" id="surename" name="surename" required>
+            </div>
+            <br>
+            <div class="gender">
+                <label>Ваше стать:
+                    <input type="radio" id="female" name="title">
+                    <label for="female">Жіноча</label>
+                    <input type="radio" id="mail" name="title">
+                    <label for="mail">Чоловіча</label>
+                </label>
+            </div>
+            <br>
+            <div class="dateOfBirth">
+                <label for="date_of_birth">Ваша дата народження:</label>
+                <input type="date" id="date_of_birth" name="date_of_birth" required>
+            </div>
+            <br>
+            <div class="operator_name">
+                <label>Послугами якої сотової компанії Ви користуєтеся:</label> <br>
+                <br>
+                <div class="operator_list">
+                    <input type="checkbox" id="kyivstar" name="kyivstar">
+                    <label for="kyivstar">KyivStar</label>
+                    <input type="checkbox" id="mts" name="mts">
+                    <label for="mts">MTS</label>
+                    <input type="checkbox" id="life" name="life">
+                    <label for="life">Life:)</label>
+                    <input type="checkbox" id="peoplenet" name="peoplenet">
+                    <label for="peoplenet">PeopleNet</label>
+                    <input type="checkbox" id="utel" name="utel">
+                    <label for="utel">Utel</label>
+                </div>
+            </div>
+            <br>
+            <div class="payment">
+                <label for="payment">Вкажіть межі щомісячної оплати за зв'язок, грн: </label>
+                <select id="payment" name="payment" required>
+                    <option value="1">до 100</option>
+                    <option value="2">100-200</option>
+                    <option value="3">200-300</option>
+                    <option value="4">300 і більше</option>
+                </select>
+            </div>
+            <br>
+            <div class="submit">
+                <input type="submit" value="Надіслати анкету" name="submit">
+                <input type="reset" value="Очистити бланк" name="reset">
+            </div>
+        </form>
+    </div>
+</main>
+</body>
+</html>
