@@ -1,0 +1,45 @@
+@media screen and (max-width: 415px) {
+
+    .header {
+        height: 20vh;
+        background-color: #888a8a;
+    }
+
+    .section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section_left {
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        width: auto;
+        margin: 0;
+    }
+
+    .top {
+        height: 20vh;
+        width: 95vw;
+    }
+
+    .footer {
+        height: 20vh;
+        width: 95vw;
+    }
+
+    .box1, .box2, .box3 {
+        width: 30vw;
+        height: 19vh;
+        background-color: #888a8a;
+    }
+
+    .section_right {
+        width: auto;
+        height: 40vh;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        background-color: #888a8a;
+    }
+
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width: 415px){
+
+   .header{
+       height: 20vh;
+       background-color: #888a8a;
+   }
+   .section{
+       flex-direction: column;
+       height: auto;
+   }
+   .section_left{
+       height: 60vh;
+       width: auto;
+       background-color: #888a8a;
+   }
+   .section_right{
+       width: auto;
+       height: 15vh;
+       margin-left: 10px;
+       background-color: #888a8a;
+   }
+
+}
