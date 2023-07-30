@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19a9cff2-f0e9-494c-8356-442359272ef2" name="Changes" comment="hw_project_p3">
-      <change afterPath="$PROJECT_DIR$/Sum_Project/img/anybodies.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sum_Project/img/clay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sum_Project/img/croud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sum_Project/img/fox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sum_Project/img/girl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sum_Project/img/laptop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sum_Project/img/man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sum_Project/img/man_woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sum_Project/img/monkey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sum_Project/img/okay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sum_Project/img/pc.png" afterDir="false" />
+    <list default="true" id="19a9cff2-f0e9-494c-8356-442359272ef2" name="Changes" comment="hw_project_p4">
+      <change afterPath="$PROJECT_DIR$/Sum_Project/img/Frame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sum_Project/img/git.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sum_Project/img/head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sum_Project/img/mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sum_Project/img/telegram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sum_Project/img/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sum_Project/img/world.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sum_Project/img/youtube.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sum_Project/Project_HW.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sum_Project/Project_HW.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sum_Project/Project_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Sum_Project/Project_style.css" afterDir="false" />
@@ -110,7 +107,8 @@
       <workItem from="1690488633941" duration="4326000" />
       <workItem from="1690613287882" duration="21071000" />
       <workItem from="1690697659002" duration="59000" />
-      <workItem from="1690697735932" duration="12179000" />
+      <workItem from="1690697735932" duration="12384000" />
+      <workItem from="1690714278760" duration="5061000" />
     </task>
     <task id="LOCAL-00001" summary="hw">
       <created>1689427595210</created>
@@ -224,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690641710869</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hw_project_p4">
+      <created>1690710278011</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690710278011</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +259,7 @@
     <MESSAGE value="hw_6" />
     <MESSAGE value="hw_project_p1" />
     <MESSAGE value="hw_project_p3" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_project_p3" />
+    <MESSAGE value="hw_project_p4" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_project_p4" />
   </component>
 </project>
