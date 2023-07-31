@@ -245,7 +245,6 @@ img {
 .number_2 {
     font-size: 101px;
     background: var(--s-gradient-2, linear-gradient(229deg, #0047FF 0%, #00BCD4 100%));
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -253,7 +252,6 @@ img {
 .number_3 {
     font-size: 101px;
     background: linear-gradient(222deg, #00FFBD 0%, #025B8C 100%);
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
