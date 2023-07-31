@@ -1,14 +1,14 @@
 /* Reset start */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
+    width: 100vw;
     margin: 0;
     color: #212121;
-    font: 400 14px/1 'Helvetica', sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -25,6 +25,7 @@ img {
 }
 
 /* Reset end */
+
 /* Default classes start */
 .d-flex {
     display: flex;
@@ -85,7 +86,6 @@ img {
 .container_nav {
     height: 67px;
     background: rgba(0, 0, 0, 0.90);
-
 }
 
 .logo {
@@ -189,11 +189,9 @@ img {
 }
 
 .image_logos {
+    margin-top: 30px;
     width: 100vw;
-}
-
-.image_logos img {
-    height: 25px;
+    column-gap: 10px;
 }
 
 .image_logos a {
@@ -276,7 +274,6 @@ img {
     font-size: 16px;
 }
 
-
 .community_header {
     font-size: 28px;
     margin: 100px 0 5px 0;
@@ -287,7 +284,6 @@ img {
     line-height: 27px;
     margin-bottom: 5px;
 }
-
 
 .text_below {
     font-size: 16px;
@@ -303,7 +299,6 @@ img {
     width: 33vw;
 }
 
-
 .community_header2 {
     font-size: 28px;
     margin: 30px 0 5px 0;
@@ -314,13 +309,10 @@ img {
     margin: 10px 0 5px 0;
 }
 
-
 span {
     color: #19FB9B;
     text-decoration: underline;
 }
-
-
 
 .build{
     width: 100vw;
@@ -332,6 +324,7 @@ span {
     width: 70vw;
     height: 1750px;
 }
+
 .build_header{
     margin-bottom: 20px;
 }
@@ -401,12 +394,16 @@ span {
 }
 
 .community_footer{
-    width: 104vw;
+    width: 69vw;
     margin-bottom: 30px;
-    border: white 2px solid;
-    margin-right: 0;
+    position: relative;
+    justify-content: space-between;
 }
 
+.community_column1{
+    position: absolute;
+    left: -17.5vw;
+}
 
 .community_column1_top{
     width: 18vw;
@@ -433,7 +430,6 @@ span {
    width: 33.3vw;
 }
 
-
 .community_column3_top img{
     width: 16.6vw;
 }
@@ -453,6 +449,11 @@ span {
     width: 16.6vw;
 }
 
+.community_column5 {
+    position: absolute;
+    right: -17.5vw;
+    bottom: 0.5vh;
+}
 
 .community_column5_number{
     font-size: 37px;
@@ -515,7 +516,6 @@ span {
     background: #087ad7;
 }
 
-
 .footer_column1_bottom{
     color: #848895;
     font-size: 12px;
@@ -538,7 +538,6 @@ span {
 .footer_column3 a:hover{
     color: #087ad7;
 }
-
 
 .footer_column4{
     width: 10vw;
