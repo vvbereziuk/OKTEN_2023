@@ -16,6 +16,11 @@ a {
     text-decoration: none;
 }
 
+#style-1::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
 ul {
     list-style: none;
 }
@@ -65,13 +70,12 @@ img {
 
 /* Default classes end */
 
-
-.main {
+main {
     max-width: 100vw;
 }
 
 .header-content {
-    background: var(--s-gradient-2, linear-gradient(229deg, #0047FF 0%, #00BCD4 100%));
+    background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
     height: 37px;
 }
 
@@ -150,7 +154,7 @@ img {
 }
 
 .btn_left:hover {
-    background: var(--s-button, linear-gradient(152deg, #8C01FA 0%, #000 100%));
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
     transition: 1s;
     transform: scale(1.05);
     border: none;
@@ -169,7 +173,7 @@ img {
 }
 
 .btn_right:hover {
-    background: var(--s-button, linear-gradient(152deg, #8C01FA 0%, #000 100%));
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
     transition: 1s;
     transform: scale(1.05);
     border: none;
@@ -244,7 +248,7 @@ img {
 
 .number_2 {
     font-size: 101px;
-    background: var(--s-gradient-2, linear-gradient(229deg, #0047FF 0%, #00BCD4 100%));
+    background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -396,15 +400,16 @@ span {
 }
 
 .community_footer{
-    width: 69vw;
+    width: 100vw;
+    height: 90vh;
     margin-bottom: 30px;
-    position: relative;
     justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .community_column1{
-    position: absolute;
-    left: -17.5vw;
+    margin-left: -2vw;
 }
 
 .community_column1_top{
@@ -424,7 +429,7 @@ span {
 }
 
 .community_column1_bottom img{
-    width: 16.6vw;
+    width: 16.7vw;
     margin-top: 20px;
 }
 
@@ -433,7 +438,7 @@ span {
 }
 
 .community_column3_top img{
-    width: 16.6vw;
+    width: 16.7vw;
 }
 
 .community_column3_number{
@@ -448,13 +453,11 @@ span {
 }
 
 .community_column4 img{
-    width: 16.6vw;
+    width: 16.9vw;
 }
 
 .community_column5 {
-    position: absolute;
-    right: -17.5vw;
-    bottom: 0.5vh;
+    margin-right: -2vw;
 }
 
 .community_column5_number{
@@ -471,7 +474,7 @@ span {
 .community_column5_bottom img{
     margin-top: 20px;
     width: 14vw;
-    height: 25vh;
+    height: 24vh;
 }
 
 .community_qoute{
@@ -572,4 +575,20 @@ span {
 
 .footer_column5 a:hover{
     color: #087ad7;
+}
+
+
+.scrollbar {
+    background-color: #F5F5F5;
+    float: left;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    margin-top: 40px;
+    width: 65px;
+    overflow-y: scroll;
+}
+
+.force-overflow {
+    min-height: 450px;
 }
